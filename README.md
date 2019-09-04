@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/g00glen00b/gatsby-wordpress-reading-time.svg?branch=master)](https://travis-ci.org/g00glen00b/gatsby-wordpress-reading-time) [![Vulnerabilities](https://snyk.io/test/github/g00glen00b/gatsby-wordpress-reading-time/badge.svg)](https://snyk.io/test/github/g00glen00b/gatsby-wordpress-reading-time)
+[![Build Status](https://travis-ci.org/g00glen00b/gatsby-wordpress-reading-time.svg?branch=master)](https://travis-ci.org/g00glen00b/gatsby-wordpress-reading-time) [![Vulnerabilities](https://snyk.io/test/github/g00glen00b/gatsby-wordpress-reading-time/badge.svg)](https://snyk.io/test/github/g00glen00b/gatsby-wordpress-reading-time) [![codecov](https://codecov.io/gh/g00glen00b/gatsby-wordpress-reading-time/branch/master/graph/badge.svg)](https://codecov.io/gh/g00glen00b/gatsby-wordpress-reading-time) ![Dependencies](https://david-dm.org/g00glen00b/gatsby-wordpress-reading-time.svg) [![npm version](https://badge.fury.io/js/gatsby-wordpress-reading-time.svg)](https://badge.fury.io/js/gatsby-wordpress-reading-time)  
+
 
 # gatsby-wordpress-reading-time
 Gatsby WordPress plugin for adding a reading time estimation, like Medium does.
