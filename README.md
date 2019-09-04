@@ -28,3 +28,36 @@ module.exports = {
   ]
 };
 ```
+
+## How to query
+When configured, this plugin will add a `readingTime` field for every WordPress entity that contains a `content` field.
+This means that posts, pages and custom post types should all be supported.
+
+The following query can be used to obtain the reading time estimation for all WordPress posts:
+
+```graphql
+{
+  allWordpressPost {
+    edges {
+      node {
+        fields {
+          readingTime {
+            text
+            minutes
+            time
+            words
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+The structure of the `readingTime` field is the same as the structure provided by the [`reading-time`](https://github.com/ngryman/reading-time) library.
+
+## Examples
+The following repository contains an example of a Gatsby blog using the `gatsby-wordpress-reading-time` plugin:
+
+- [Repository](https://github.com/g00glen00b/gatsby-blog)
+- [Demo](https://dimitr.im/)
