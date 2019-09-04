@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - 10
+os:
+  - linux
+  - osx
+branches:
+  only:
+    - master
+  except:
+    - gh-pages
+install:
+  - npm install
+script:
+  - npm run lint
+  - npm run test
+  - npm run build

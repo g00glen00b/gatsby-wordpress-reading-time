@@ -61,3 +61,6 @@ The following repository contains an example of a Gatsby blog using the `gatsby-
 
 - [Repository](https://github.com/g00glen00b/gatsby-blog)
 - [Demo](https://dimitr.im/)
+
+## License
+MIT
