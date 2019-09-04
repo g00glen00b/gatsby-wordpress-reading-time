@@ -1,6 +1,6 @@
 {
   "name": "gatsby-wordpress-reading-time",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gatsby WordPress plugin for adding a reading time estimation",
   "main": "index.js",
   "scripts": {
