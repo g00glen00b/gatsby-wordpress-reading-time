@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/g00glen00b/gatsby-wordpress-reading-time.svg?branch=master)](https://travis-ci.org/g00glen00b/gatsby-wordpress-reading-time) [![Vulnerabilities](https://snyk.io/test/github/g00glen00b/gatsby-wordpress-reading-time/badge.svg)](https://snyk.io/test/github/g00glen00b/gatsby-wordpress-reading-time) [![codecov](https://codecov.io/gh/g00glen00b/gatsby-wordpress-reading-time/branch/master/graph/badge.svg)](https://codecov.io/gh/g00glen00b/gatsby-wordpress-reading-time) ![Dependencies](https://david-dm.org/g00glen00b/gatsby-wordpress-reading-time.svg) [![npm version](https://badge.fury.io/js/gatsby-wordpress-reading-time.svg)](https://badge.fury.io/js/gatsby-wordpress-reading-time)  
+[![Build Status](https://travis-ci.org/g00glen00b/gatsby-wordpress-reading-time.svg?branch=master)](https://travis-ci.org/g00glen00b/gatsby-wordpress-reading-time) [![Vulnerabilities](https://snyk.io/test/github/g00glen00b/gatsby-wordpress-reading-time/badge.svg)](https://snyk.io/test/github/g00glen00b/gatsby-wordpress-reading-time) [![codecov](https://codecov.io/gh/g00glen00b/gatsby-wordpress-reading-time/branch/master/graph/badge.svg)](https://codecov.io/gh/g00glen00b/gatsby-wordpress-reading-time) ![Dependencies](https://david-dm.org/g00glen00b/gatsby-wordpress-reading-time.svg) [![npm version](https://badge.fury.io/js/gatsby-wordpress-reading-time.svg)](https://badge.fury.io/js/gatsby-wordpress-reading-time) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fg00glen00b%2Fgatsby-wordpress-reading-time.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fg00glen00b%2Fgatsby-wordpress-reading-time?ref=badge_shield)
+ 
 
 
 # gatsby-wordpress-reading-time
@@ -67,3 +68,6 @@ The following repository contains an example of a Gatsby blog using the `gatsby-
 
 ## License
 MIT
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fg00glen00b%2Fgatsby-wordpress-reading-time.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fg00glen00b%2Fgatsby-wordpress-reading-time?ref=badge_large)
