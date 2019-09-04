@@ -12,5 +12,5 @@
   "plugins": [
     "@babel/plugin-transform-runtime"
   ],
-  "only": ["src/"]
+  "only": ["src/", "test/"]
 }

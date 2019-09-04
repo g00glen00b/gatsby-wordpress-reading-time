@@ -8,7 +8,7 @@
     "format": "prettier --write 'src/*.js'",
     "build": "babel src --out-dir ./ --source-maps",
     "watch": "babel src --out-dir ./ --source-maps --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --color"
   },
   "keywords": [
     "gatsby",
@@ -26,6 +26,7 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^6.3.0",
     "eslint-plugin-babel": "^5.3.0",
+    "jest": "^24.9.0",
     "prettier": "^1.18.2"
   },
   "dependencies": {
@@ -34,5 +35,8 @@
   },
   "peerDependencies": {
     "gatsby": ">2.0.0"
+  },
+  "jest": {
+    "collectCoverage": true
   }
 }
