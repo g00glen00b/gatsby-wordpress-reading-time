@@ -2,13 +2,37 @@
   "name": "gatsby-wordpress-reading-time",
   "version": "1.0.0",
   "description": "Gatsby WordPress plugin for adding a reading time estimation",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
+    "lint": "eslint --ext js ./ --cache",
+    "format": "prettier --write 'src/*.js'",
+    "build": "babel src --out-dir ./ --source-maps",
+    "watch": "babel src --out-dir ./ --source-maps --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "Gatsby"
+    "gatsby",
+    "gatsby-plugin",
+    "reading-time",
+    "wordpress"
   ],
-  "author": "g00glen00b",
-  "license": "MIT"
+  "author": "Dimitri Mestdagh <me@g00glen00b.be>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.3.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "reading-time": "^1.2.0"
+  },
+  "peerDependencies": {
+    "gatsby": ">2.0.0"
+  }
 }

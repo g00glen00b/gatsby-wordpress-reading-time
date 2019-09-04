@@ -1,2 +1,15 @@
-node_modules/
+# Editors
 .idea/
+*.iml
+
+# npm
+node_modules/
+npm-debug.log*
+
+# ESLint
+.eslintcache
+
+# Gatsby
+gatsby-*
+!src/**
+!test/**
