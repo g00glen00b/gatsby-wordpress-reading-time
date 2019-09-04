@@ -19,6 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
+        // Other options ...
         plugins: [
           `gatsby-wordpress-reading-time`,
         ]
