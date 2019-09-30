@@ -67,3 +67,6 @@ The following repository contains an example of a Gatsby blog using the `gatsby-
 
 ## License
 MIT
+
+## License status
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fg00glen00b%2Fgatsby-wordpress-reading-time.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fg00glen00b%2Fgatsby-wordpress-reading-time?ref=badge_large)
