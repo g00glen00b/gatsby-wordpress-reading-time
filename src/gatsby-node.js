@@ -1,7 +1,7 @@
 import readingTime from 'reading-time';
 
-export function onCreateNode({ node, actions }) {
-  const { createNodeField } = actions;
+export function onCreateNode({node, actions}) {
+  const {createNodeField} = actions;
   if (node.content != null) {
     createNodeField({
       node,

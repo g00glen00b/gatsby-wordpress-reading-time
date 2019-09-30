@@ -3,12 +3,7 @@ jest.doMock('reading-time', () => content => ({
   content: content
 }));
 
-require('reading-time');
 const {onCreateNode} = require('../src/gatsby-node');
-
-beforeEach(() => {
-  jest.resetModules();
-});
 
 test('adds readingTime field for nodes with content', () => {
   const node = {content: 'foo'};
