@@ -59,12 +59,6 @@ The following query can be used to obtain the reading time estimation for all Wo
 
 The structure of the `readingTime` field is the same as the structure provided by the [`reading-time`](https://github.com/ngryman/reading-time) library.
 
-## Examples
-The following repository contains an example of a Gatsby blog using the `gatsby-wordpress-reading-time` plugin:
-
-- [Repository](https://github.com/g00glen00b/gatsby-blog)
-- [Demo](https://dimitr.im/)
-
 ## License
 MIT
 
